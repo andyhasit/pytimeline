@@ -1,4 +1,4 @@
-# timeline
+# pytimeline
 
 An extremely simple but effective (and efficient) timeline for simulations.
 
