@@ -1,10 +1,12 @@
 '''
 This example shows how py_simulator can be used to calculate compound interest.
-
 '''
+
+import sys
+sys.path.append("..")
 from datetime import datetime, timedelta
 from decimal import Decimal
-from timeline import Timeline, SimulationObject
+from pytimeline import Timeline, SimulationObject
 
 class CompoundInterestAccount(SimulationObject):
     
